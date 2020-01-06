@@ -75,12 +75,12 @@ class CalendarListItem extends Component {
             onPressArrowLeft={this.props.horizontal ? this.onPressArrowLeft : this.props.onPressArrowLeft}
             onPressArrowRight={this.props.horizontal ? this.onPressArrowRight : this.props.onPressArrowRight}
             headerStyle={this.props.horizontal ? this.props.headerStyle : undefined}
-          />);
-         <View style={{
+          />
+           <View style={{
             height: 1, backgroundColor: '#33435b73',
             marginLeft: 20, marginRight: 20
           }} />
-        </View>
+        </View>);
     } else {
       const text = row.toString();
 
