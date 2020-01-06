@@ -310,6 +310,7 @@ class CalendarList extends Component {
           initialScrollIndex={this.state.openDate ? this.getMonthIndex(this.state.openDate) : false}
           getItemLayout={this.getItemLayout}
           scrollsToTop={this.props.scrollsToTop}
+          ListFooterComponent={() => (<View style={{ height: 35 }} />)}
         />
         {this.renderStaticHeader()}
       </View>
